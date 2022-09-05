@@ -12,10 +12,11 @@ public class Fibonacci2D {
         array[1][1]=1;
         long bTime = System.nanoTime();
         System.out.println(fibonacci2D(array.length-1, array[array.length-1].length-1));
+        System.out.println("Total time = " + (System.nanoTime() - bTime) / 1_000_000d);
         for (int[] a : array) {
             System.out.println(Arrays.toString(a));
         }
-        System.out.println("Total time = " + (System.nanoTime() - bTime) / 1_000_000d);
+
     }
     private static int fibonacci2D(int i, int j) {
         if (i==0||i==1||j==0||j==1){
