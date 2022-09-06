@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Fibonacci2D {
+public class CountOfSteps {
 
 
     private static final int[][] array =new int[5][5];
